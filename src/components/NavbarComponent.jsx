@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/vanta.jpg";
+import logo from "../logos/vanta.jpg";
 
 const NavbarComponent = () => {
     let user = JSON.parse(localStorage.getItem("user"));
