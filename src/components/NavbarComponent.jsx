@@ -16,7 +16,7 @@ const NavbarComponent = () => {
                <img src={logo} alt="Vanta Logo" className="logo-img me-2" />
              </div>
             </Link>
-            <button className="navbar-toggler" data-bs-collapse="collapse" data-bs-target="#navbarCollapse">
+            <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
             </button>
 
